@@ -1,5 +1,16 @@
-/* styles.css */
+body {
+    background-color: #e5e5f7;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #bfd503, #bfd503 1px, #e5e5f7 1px, #e5e5f7);
+}
 
-* {
-	font-family: Arial;
+h1, h2, h3 {
+    color: #59006A;
+    font-family: "Unica One", sans-serif;
+}
+
+p {
+    color: #8B1BFF;
+    font-size: 18px;
+    font-family: "Crimson Text", serif;
 }
