@@ -1,0 +1,25 @@
+body {
+    background-color: #decd1b;
+    background: radial-gradient(circle, transparent 20%, #decd1b 20%, #decd1b 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #decd1b 20%, #decd1b 80%, transparent 80%, transparent) 82.5px 82.5px, linear-gradient(#ffffff 6.6000000000000005px, transparent 6.6000000000000005px) 0 -3.3000000000000003px, linear-gradient(90deg, #ffffff 6.6000000000000005px, #decd1b 6.6000000000000005px) -3.3000000000000003px 0;
+    background-size: 165px 165px, 165px 165px, 82.5px 82.5px, 82.5px 82.5px;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: #59006A;
+}
+
+p {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #7800B0
+}
+
+li {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #8B1BFF;
+}

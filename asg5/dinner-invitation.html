@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website Template (Please update for full credit)</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<h1>Dinner Invitation to Guests</h1>
+
+	<h2>David Bowie</h2>
+
+		<img src="images/David-Bowie.jpg" width="200" height="200" alt="David Bowie">
+
+		<p>David Bowie is a music artist hailing from the United Kingdom. With twenty-six studio albums spanning a career just under fifty years, he's made quite the impact in the music industry and was always experimenting with his music. I would like to have him over mainly due to me being a major fan of his, and I would also love to know his thoughts when creating some of his songs and albums. Also, I just think he's cool and just an all around chill and funny guy to talk with.</p>
+
+	<h2>Chris Pratt</h2>
+		<img src="images/Chris-Pratt.jpg" width="200" height="200" alt="Chris Pratt">
+
+		<p>Chris Pratt is an American actor and producer, who has made several big appearances in movies and televison, especially in more recent years. Whether it was his role on Parks and Recreation, or his appearences in major blockbusters like Guardians of the Galaxy and the Super Mario Bros movie, he's been making it big in the scene. I would invite him over mainly due to him being one of my favorite actors ever, and I'd like to talk to him about what I felt were his best perfomances and maybe get insight on his life when trying for those roles. I also think he seems like a nice guy to be around and chat with.</p>
+
+	<h2>Shigeru Miyamoto</h2>
+		<img src="images/Shigeru-Miyamoto.jpg" width="200" height="200" alt="Shigeru Miyamoto">
+
+		<p>Shigeru Miyamoto is a game developer, producer & director hailing from Japan. He has been working for the company Nintendo since the late seventies, and is behind behind some of their most popular properties, such as Super Mario, Donkey Kong, and The Legend of Zelda, just to name a few. I would invite him primarily due to his field of work is something I wish to aspire to, as someone who is studying and working towards becoming a game developer myself. I would ask him for any advice and discuss various game philosophies he may have implemented in his games. He is one of my idols in that regard.</p>
+
+	<h3>The Menu</h3>
+
+	<ul>
+		<li>Prawn Cocktails</li>
+		<li>Mozzarella sticks</li>
+		<li>Yakitori</li>
+		<li>Crab & Saffron Leek Pasties</li>
+		<li>BBQ Ribs</li>
+		<li>Sushi</li>
+		<li>Victoria Sponge Cake</li>
+		<li>Brownies</li>
+		<li>Dango</li>
+		<li>Margarita</li>
+		<li>Red Wine</li>
+		<li>Dr. Pepper</li>
+	</ul>
+
+	<h2>RSVP Form</h2>
+
+	<form action="/dinner-invitation" method="POST">
+	  <label for="name">Please enter your name:</label>
+	  <br>
+
+	  	<input id="Name" name="Guest name" type="text" required>
+	  <br>
+
+	  <label for="Guest">Will you be bringing any guests?</label>
+      <br>
+      	<input id="yes" type="radio" name="Yes Guest" value="yes">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="No Guest" value="no">
+        <label for="no">No</label>
+	  <br>
+
+	  <label for="blog">Any dietary preferences? </label>
+	  <br>
+	  	<textarea id="Preferences" name="Preferences" rows="5" cols="30">
+	  	</textarea>
+	  <br>
+
+	  <input type="submit" value="Submit">
+
+	</form>
+
+</body>
+</html>
