@@ -1,0 +1,41 @@
+/* Sets background to moroccan-flower */
+body {
+    background: url("images/moroccan-flower.png");
+}
+
+/* Sets font settings for the h1 headers */
+h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 3em;
+    font-style: bold;
+    color: #2B0065;
+
+}
+
+/* Sets font settings for the h2 headers */
+h2 {
+    font-family: "Karla", sans-serif;
+    font-size: 2em;
+    padding-left: 40px;
+    font-style: bold;
+    color: #003CAF;
+}
+
+/* Sets font settings for the h3 headers */
+h3{
+    font-family: "Karla", sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font-style: bold;
+    padding-left: 100px;
+    color: #007CA9;
+}
+
+/* Sets font settings for the paragraphs */
+p {
+    font-family: "Inconsolata", monospace;
+    line-height: 1.5;
+    padding-left: 100px;
+    font-style: bold;
+    color: #00B0BD;
+}
