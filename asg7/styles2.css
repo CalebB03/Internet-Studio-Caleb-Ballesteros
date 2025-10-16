@@ -1,0 +1,77 @@
+/*Adds the grid background to the webpage*/
+body {
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(#154c0f 0.7000000000000001px, transparent 0.7000000000000001px), linear-gradient(to right, #154c0f 0.7000000000000001px, #e5e5f7 0.7000000000000001px);
+    background-size: 60px 60px;
+}
+
+/*Imports the fjalla-one font*/
+/* fjalla-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fjalla-one-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Imports the libre-baskerville fonts*/
+/* libre-baskerville-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/libre-baskerville-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* libre-baskerville-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/libre-baskerville-v17-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* libre-baskerville-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/libre-baskerville-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Adjusts the h1 tag parameters*/
+h1 {
+  font-family: 'Fjalla One';
+  font-style: italic;
+  color: #B20069;
+  font-size: 2.5em;
+}
+
+/*Adjusts the h2 tag parameters*/
+h2 {
+  font-family: 'Fjalla One';
+  font-style: italic;
+  color: #8A01D9;
+  font-size: 1.75em;
+}
+
+/*Adjusts the h3 tag parameters*/
+h3 {
+  font-family: 'Fjalla One';
+  font-style: italic;
+  color: #0066C6;
+  font-size: 1.5em;
+}
+
+/*Adjusts the p tag parameters*/
+p {
+  font-family: 'Libre Baskerville';
+  font-style: bold;
+  line-height: 1.5;
+  color: #007013;
+  font-size: 1.25em;
+}

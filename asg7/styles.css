@@ -1,0 +1,80 @@
+/*Imports the afacad-flux fonts*/
+/* afacad-flux-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/afacad-flux-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* afacad-flux-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Afacad Flux';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/afacad-flux-v4-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Imports the adamina font*/
+/* adamina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Adamina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adamina-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Sets background image using html tag*/
+html {
+  background-color: #e5e5f7;
+  background-size: 24.5px 24.5px;
+  background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 0.8px, #e5e5f7 0.8px, #e5e5f7);
+}
+
+/*Adjusts the p tag parameters*/
+p {
+    font-family: 'Afacad Flux';
+    font-size: 1.2em;
+    font-style: bold;
+    color: #D8BB00;
+}
+
+/*Adjusts the h1 tag parameters*/
+h1 {
+  font-family: 'Adamina';
+  font-size: 2em;
+  font-style: italic;
+  color: #45431A;
+}
+
+/*Adjusts the h2 tag parameters*/
+h2 {
+  font-family: 'Adamina';
+  font-size: 1.5em;
+  font-style: italic;
+  color: #686001;
+}
+
+/*Adjusts the h3 tag parameters*/
+h3 {
+  font-family: 'Adamina';
+  font-size: 1.5em;
+  font-style: italic;
+  color: #8B7E00;
+}
+
+/*Sidebar parameters*/
+aside {
+    width: 15%;
+    float: right;
+    margin: 10px;
+    background-color: #0492C2;
+    padding: 10px 20px; 
+    border: 1px dotted rgb(252,101,18); 
+    border-top: 20px solid rgb(252,101,18);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
