@@ -1,0 +1,77 @@
+/*Brings in the tourney font*/
+/* tourney-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tourney';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/tourney-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Brings in the raleway font*/
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/raleway-v37-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Font type scale generator parameters*/
+
+html {
+    
+}
+
+/*Sets background to the specified image*/
+body {
+  background: url(images/moroccan-flower-dark.png);
+}
+
+/*Sets font style for the paragraphs*/
+p {
+    font-family: 'Raleway';
+    font-size: 1.8em;
+    font-style: bold;
+    color: #8E4900;
+}
+
+/*Sets default font parameters for the headings*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Toruney', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+/*Sets specific font parameters for the h1 headings*/
+h1,
+.text-size-h1 {
+  font-family: 'Tourney', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+  color: #F2F77D;
+}
+
+/*Sets specific font parameters for the h2 headings*/
+h2,
+.text-size-h2 { 
+    font-family: 'Tourney', sans-serif;
+    font-weight: 700;
+    font-size: 2.8em;
+    color: #E0B800;
+}
+
+/*Sets specific parameters for the flexbox*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #FFD3AC;
+}
