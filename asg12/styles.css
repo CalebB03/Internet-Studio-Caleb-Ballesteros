@@ -1,0 +1,102 @@
+/*Brings in the audiowide font*/
+/* audiowide-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/audiowide-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Brings in the roboto font*/
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/roboto-v49-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Sets the webpage background to the assigned image*/
+body {
+  background: url(images/more-leaves-on-green.png);
+}
+
+/*Sets the parameters for the paragraph text in the movie gallery*/
+p {
+  font-family:'Roboto', sans-serif;
+  font-size: .74em;
+  color: #FF0000;
+  line-height: 1.2;
+}
+
+/*Sets the parameters for the summary paragraph text above the movie gallery */
+.explaination {
+  font-family:'Roboto', sans-serif;
+  font-size: 1.9em;
+  font-style: bold;
+  line-height: 1.1;
+}
+
+/*Sets the default parameters for the headings*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Audiowide', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+/*Sets the specific parameters for the webpage heading*/
+h1,
+.text-size-h1 {
+  font-family: 'Audiowide', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+  color: #003049;
+}
+
+/*Sets the specific parameters for the movie title headings*/
+h2,
+.text-size-h2 { 
+  font-size: .9em;
+  color: #eae2b7;
+}
+           
+
+
+/* sets the grid  outline for the movie gallery*/
+.gridContainer {
+  display: grid;
+  border: 4px gray solid;
+  border-radius: 5px;
+  width: 1530px;
+  height: 1220px;
+  /*grid-template-columns: 100px 200px;
+  grid-template-rows: 10% 20% 600px; */ 
+  /*grid-template: repeat(3, 1fr) / repeat(4, 1fr);*/
+  grid-template: repeat(4, 400px) / repeat(4, 400px);
+  gap: 5px;
+}
+
+/* Creates the boxes that host the movie posters and their descriptions*/
+.movies {
+  background-color: dodgerblue;
+  color: black;
+  border-radius: 5px;
+  width: 300px;
+  border: 4px royalblue solid;
+  gap: 5px;
+}
+
+/* Creates the placement of the boxes on the grid*/
+.a {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
