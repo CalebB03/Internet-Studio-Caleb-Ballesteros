@@ -1,0 +1,80 @@
+
+/*Imports the Space Mono font*/
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/space-mono-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Imports the Plus Jakarta Sans font*/
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/plus-jakarta-sans-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Parameters brought in from fluid Type Scale Generator*/
+
+html {font-size: 16px;}
+
+/*Sets default parameters for the webpage body, including the background image*/
+body {
+  font-family: 'Plus Jakarta Sanas', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  background: url(images/moroccan-flower.png);
+}
+
+/*Sets specific parameters for the paragraph tags*/
+p {
+  font-size: 1.6em;
+  font-style: bold;
+  color: #696000;
+}
+
+/*Sets default parameters for the headings*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+/*Sets specific parameters for the h1 tags*/
+h1,
+.text-size-h1 {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-style: italic;
+  margin-top: 0;
+  font-size: 3.05em;
+  color: #5DBF00;
+}
+
+/*Sets specific parameters for the h2 tags*/
+h2,
+.text-size-h2 { 
+    font-size: 2.3em;
+    font-style: bold;
+    font-style: italic;
+    color: #00E154;
+}
+              
+/*Sets specific parameters for the flexbox*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: #BDFFE6;
+}
