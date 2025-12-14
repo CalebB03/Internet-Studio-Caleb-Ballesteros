@@ -1,25 +1,226 @@
-/* 
-      .--..--..--..--..--..--.
-    .' \  (`._   (_)     _   \
-  .'    |  '._)         (_)  |
-  \ _.')\      .----..---.   /
-  |(_.'  |    /    .-\-.  \  |
-  \     0|    |   ( O| O) | o|
-   |  _  |  .--.____.'._.-.  |
-   \ (_) | o         -` .-`  |
-    |    \   |`-._ _ _ _ _\ /
-    \    |   |  `. |_||_|   |
-    | o  |    \_      \     |     -.   .-.
-    |.-.  \     `--..-'   O |     `.`-' .'
-  _.'  .' |     `-.-'      /-.__   ' .-'
-.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
-`-._  `.  |________/\_____|    `-.'
-   .'   ).| '=' '='\/ '=' |
-   `._.`  '---------------'
-           //___\   //___\
-             ||       ||
-             ||_.-.   ||_.-.
-            (_.--__) (_.--__)
-       
+/* Insert all your glorious CSS styles below! */
 
- Insert all your glorious CSS styles below! */
+/* press-start-2p-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/press-start-2p-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/montserrat-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Type Scale Generator */
+
+html {
+    font-size: 16px;
+    background-color: #1b1f2a;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: #976393;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+  color: #976393;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+  color: #976393;
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; }
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+              
+
+
+/* Headers, Footers, Button Assets*/
+
+
+header {
+    /* background: rgb(246,217, 146); */
+    background: linear-gradient(to bottom, rgb(0,0,0),rgb(255,255,255));  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background: rgb(255,214,94); 
+    background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));  
+    padding-top: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav ul li {
+    background-color: dodgerbue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: #A9A9A9;
+    border-radius: 5px;
+    border: 1px solid #c95e00;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+    text-shadow:
+        0px -1px 1px rgba(000,000,000,0.2),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.containerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: #f4f4f4;
+    border: 2px solid #6a4bcf;
+}
+
+.containerHomepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: #1f1f24;
+    border: 2px solid #6a4bcf;
+}
+
+.containerShowcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: #BDFFE6;
+    border: 2px solid #6a4bcf;
+}
+
+.containerCommunity {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: #BDFFE5;
+    border: 2px solid #6a4bcf;
+}
+
+.container p{
+    font-size: 2em;
+
+}
+
+.containerHomepage p{
+    font-size: 3em;
+}
+
+nav a {
+    /* transition: all .5s; */
+    transition: transform .5s, background-color 1s ease-in .5s;
+}
+
+nav a:hover {
+    background-color: red;
+    transform: scale(1.5);
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer nav ul li {
+    background-color: dodgerbue;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: .7em;
+    text-align: right;
+}
+
+.center {
+    font-size: 1.7em;
+    font-family: 'Montserrat';
+    color: #976393;
+    text-align: center;
+}
+
+label {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: .5em;
+}

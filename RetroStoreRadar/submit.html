@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RetroStoreRadar</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<header>
+
+	<div class = "containerTop">
+		<h1>RETRO STORE RADAR</h1>
+		<img src = "images/retro-controller.png"  height = 50 width = 50 alt = "controller">
+	</div>
+
+	<div>
+
+		<nav>
+			<ul>
+				<li><a href="homepage.html">Homepage</a></li>
+				<li><a href="showcase.html">Store Showcase</a></li>
+				<li><a href="community.html">Community</a></li>
+				<li><a href="search.html">Search For Stores</a></li>
+				<li><a href="submit.html">Submit</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>	
+		</nav>
+
+	</div>
+
+	</header>
+
+	<div class = "center">
+	<h2>Submit a Store</h2>
+
+	<p>Want to submit a store you've noticed isn't in our database, or a store owner looking to put their store out there for the world to see? Well, this is the spot for you! Just fill out the form and we'll update our page with the information you submit.</p>
+
+	<form action="thankyou.html" method="get">
+
+		 <label for="Person">Are you a store owner or a customer? Please select one.</label>
+      <br>
+      	<input id="Customer" type="radio" name="Customer" value="Customer">
+        <label for="Customer">Customer</label>
+        <input id=" Store Owner" type="radio" name="Store Owner" value="Store Owner">
+        <label for="Store Owner">Store Owner</label>
+	  <br>
+
+	  <label for="name">Please enter the store name:</label>
+	  <br>
+
+	  	<input id="Name" name="Store name" type="text" required>
+	  <br>
+
+	  <label for="Address">Please enter the store address:</label>
+	  <br>
+
+	  	<input id="Address" name="Store address" type="text" required>
+	  <br>
+
+	  <label for="link">Please enter the link to the store's website or social media page:</label>
+	  <br>
+
+	  	<input id="link" name="Store link" type="text" required>
+	  <br>
+
+	  <label for="Comment">Description of Store </label>
+	  <br>
+	  	<textarea id="Comment" name="Comments" rows="5" cols="30">
+	  	</textarea>
+	  <br>
+
+	  <label>Store Image (optional, but recommended) </label>
+	  <br>
+
+  		<input type="file" accept="image/*" onchange="previewImage(event)">
+
+  		<img id="image" style="display:none; max-width:100px; margin-top:10px;">
+  	<br>
+
+	  <input type="submit" value="Submit">
+
+	</form>
+
+	</div>
+
+	<footer>
+		<div class = "footer">
+
+			<p>Copyright 2025: RetroStoreRadar</p>
+			<p>For business inquiries: retrostoreradar@gmail.com</p>
+			<p>Royalty free icons provided by https://game-icons.net/</p>
+
+		</div>
+
+	</footer>
+	
+</body>
+</html>
